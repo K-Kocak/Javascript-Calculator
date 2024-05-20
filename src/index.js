@@ -24,7 +24,6 @@ class Author extends React.Component {
   render() {
     return (
     <div class="author">
-      <h2>Calculator by Cyonic1</h2>
     </div>
       )
   }
