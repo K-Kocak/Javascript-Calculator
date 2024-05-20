@@ -1,0 +1,98 @@
+$bodybgcolor: #EBBEC8;
+$calculatorborder: #928590;
+$buttonoutline: black;
+$clearbutton: #BD4262;
+$equalsbutton: #170C7F;
+$operatorbuttons: #666666;
+$white: white;
+$formulacolor: orange;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: $bodybgcolor;
+  user-select: none;
+}
+
+.calculator {
+  border: 2px solid $calculatorborder;
+  padding: 5px;
+  background: $buttonoutline;
+  width: 334px;
+  position: relative;
+}
+
+
+.formulaScreen {
+  min-height: 20px;
+  font-size: 20px;
+  color: $formulacolor;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.outputScreen {
+  font-size: 35px;
+  color: $white;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 2px solid $buttonoutline;
+  border: none;
+  background: #4d4d4d;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#equals {
+    background: $equalsbutton;
+    position: absolute;
+    height: 130px;
+    bottom: 5px;
+  }
+
+#multiply, #divide, #subtract, #add {
+  background: $operatorbuttons;
+}
+
+#clear {
+  background: $clearbutton;
+}
+
+button:hover {
+  color: white;
+  outline: 0.05rem solid;
+  z-index: 3;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  margin-top: 15px;
+  color: $buttonoutline;
+}
