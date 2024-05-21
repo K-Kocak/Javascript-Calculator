@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+# JavaScript Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's your usual Calculator App, but with a bit more advanced display for your equations and being able to chain equations together, made in JavaScript plus React.
 
-## Available Scripts
+## Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Functionality and Screenshots](#functionality-and-screenshots)
+- [Credits](#credits)
+
+## Features
+
+- It's your every day calculator.
+- After pressing equals, inputting an operator will continue your equation.
+- Clear screen button.
+- A second display area to show your entire equation so far.
+- Combining divide, multiply and add operators with the minus operator (for negative numbers).
+
+## Installation
 
 In the project directory, you can run:
 
@@ -39,32 +54,35 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Functionality and Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Calculator - Expected Display*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![calculator display](./docs/readme/longdisplayPicture.png)
 
-### Code Splitting
+Illustrating what the calculator looks like (the rest of the page is the pink background colour).
+- The orange text is your entire equation typed so far. You can chain as many numbers and operators as you want.
+- The white display is the current number you are typing. As expected, this number can only have one decimal point.
+- The AC button clears the display.
+- The rest of the display is self-explanatory. The pictures below will illustriate what happens if you press equals.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*Calculator - Equals Button*
 
-### Analyzing the Bundle Size
+![calculator equals 1](./docs/readme/continuedequationp1Picture.png)
+![calculator equals 2](./docs/readme/continuedequationp2Picture.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The two images above illustrate pressing the equals button.
+- Upon clicking equals (in the left hand picture), the answer 37 is produced and the full equation is displayed in the orange text display as well as the white text display.
+- From there, the minus operator is clicked followed by a 7 seen in the right hand picture, then the equals button is pressed.
+- This is illustration that you are able to chain equations together, and don't need to start over by typing in your last answer.
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tools
 
-### Advanced Configuration
+- JavaScript
+- React
+- SCSS
+- HTML
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back to Top](#contents)
